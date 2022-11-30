@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.container{
+    /* display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid: (2, 60px);
+    gap: 2em;
+    grid-gap: 2em; */
+    margin: 0;
+    border: 2px solid red;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.container > div {
+    color: #ffbf00;
+    border-radius: 5px;
+    border: 2px teal solid;
+    padding: 10px;
+}
