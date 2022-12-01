@@ -1,13 +1,14 @@
 body{
     background-color: black;
+    margin: 0;
 }
 
 .container{
-    margin: 0;
-
     display: flex;
-    align-items: baseline;
-    justify-content: baseline;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .container > div {
@@ -15,4 +16,11 @@ body{
     border-radius: 5px;
     border: 2px teal solid;
     padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
 }
