@@ -72,10 +72,10 @@ body{
   .cTL{
     font-family: playfair;
     font-weight: bold;
-    background-color: rgba(159, 160, 164, 0.3);
+    background-color: rgba(159, 160, 164, 0.5);
     padding: 10px;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
