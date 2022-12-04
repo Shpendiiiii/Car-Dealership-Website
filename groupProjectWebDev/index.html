@@ -7,6 +7,8 @@
     <title>Untitled: Group Project</title>
     <link rel="stylesheet" href="./styling.css" />
     <script defer src="./asyncScript.js"></script>
+    <script defer src="./qoutesCust.js"></script>
+    <script src="./jquery.js"></script>
   </head>
 
   <body>
@@ -25,37 +27,34 @@
     </div>
     <br />
     <div id="landing">
-      <script>
-        var i = 0;
-        var images = [];
-        var time = 3000;
-
-        images[0] =
-          "https://www.carscoops.com/wp-content/uploads/2021/01/Pagani-Huayra-Roadster-1a.jpg";
-        images[1] =
-          "https://pictures.dealer.com/w/warrenhenryauto/1623/7ba71876c3b9551e6a7e262907c0f6c2x.jpg";
-        images[2] =
-          "https://th.bing.com/th/id/R.8a762fc29c828e80f87b3f0534e38995?rik=HDh4mRqvFW2Ebg&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fwalls%2f2020_dodge_charger_srt_hellcat_widebody_4-HD.jpg&ehk=kY0o6J0JzMPUC6AYu%2fqIDBVy8KwXe2yi7Qt4G1DrjbQ%3d&risl=&pid=ImgRaw&r=0";
-
-        function slideChange() {
-          document.slide.src = images[i];
-          if (i < images.length - 1) {
-            i++;
-          } else {
-            i = 0;
-          }
-          setTimeout("slideChange()", time);
-        }
-
-        window.onload = slideChange;
-      </script>
-      <img name="slide" width="100%" class="landingSlides" />
+      <img name="slide" width="95%^" height="620" class="landingSlides" />
       <div class="cTL">
         <h3>
           You Have Found the Place to Find the Ultimate Driving Experience
         </h3>
       </div>
     </div>
-    <div id="main"><h1>Come for a test drive!</h1></div>
+    <br />
+    <div id="quotes">
+      <p id="quotesP"></p>
+    </div>
+    <br /><br /><br />
+
+    <div class="testimonial-container">
+      <div class="progress-bar"></div>
+      <div class="fas fa-quote-left fa-quote"></div>
+      <div class="fas fa-quote-right fa-quote"></div>
+      <p class="testimonial">
+        Avant Car devlivers, a long time customer of them. They never fail to
+        supply us with the best out there.
+      </p>
+      <div class="user">
+        <img src="./man3.jfif" alt="user" class="user-image" />
+        <div class="user-details">
+          <h4 class="username">Joachin Phoenix</h4>
+          <p class="role">Realtor</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
