@@ -81,7 +81,7 @@ body{
   }
 
   .landingSlides{
-    animation: fadeIn 2s;
+    transition: fadeIn 2s;
   }
   @keyframes fadeIn {
     0% {opacity:0;}
