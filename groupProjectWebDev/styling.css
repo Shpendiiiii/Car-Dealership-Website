@@ -11,6 +11,10 @@ html{
     color: #ddd;
 }
 
+hr{
+  width: 20%; 
+}
+
 body{
     background-color: black;
     margin: 0;
@@ -87,13 +91,14 @@ body{
   /* testimonal's css*/
 
   .testimonial-container {
-
     color: white;
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 10em auto;
     padding: 50px 80px;
     max-width: 768px;
     position: relative;
+    background-image: linear-gradient(to right bottom, #6c6969, #524f4f, #393737, #222020, #090606);
+    
   }
   
   .fa-quote {
@@ -165,3 +170,52 @@ body{
       display: none;
     }
   }
+
+
+  /* mainPageContent */
+  #first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    /* margin: 2em; */
+    font-size: 20px;
+    
+    
+  }
+
+
+  #first > img{
+    border-radius: 2em;
+    border: 1px solid white;
+  }
+
+
+  #second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+   margin-top: 2em;
+    font-size: 20px;
+    
+  }
+
+  #second > img{
+    border-radius: 2em;
+    border: 1px solid white;
+  }
+
+#third1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#third1 > img{
+  border-radius: 1em;
+}
