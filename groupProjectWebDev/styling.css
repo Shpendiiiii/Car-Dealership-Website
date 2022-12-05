@@ -263,6 +263,14 @@ body{
     .fa-quote {
       display: none;
     }
+    .catalogue-content {
+      grid-template-columns: 1fr;
+    }
+    .layer p{
+      font-size: .8rem;
+      line-height: 1.8;
+      margin-right: 6em;
+    }
   }
 
 
