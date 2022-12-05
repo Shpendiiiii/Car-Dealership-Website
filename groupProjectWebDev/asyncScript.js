@@ -20,5 +20,3 @@ function slideChange() {
   setTimeout("slideChange()", 3020);
 }
 window.onload = slideChange;
-
-// scroll elements
