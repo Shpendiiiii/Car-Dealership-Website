@@ -5,6 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+h1 {
+  text-align: center;
+}
 
 *{
     font-family: playfair;
@@ -269,7 +272,7 @@ body{
     }
     .layer p{
       font-size: .8rem;
-      line-height: 1.8;
+      line-height: 1.1;
       margin-right: 6em;
     }
   }
