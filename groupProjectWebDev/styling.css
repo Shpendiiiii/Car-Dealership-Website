@@ -22,7 +22,7 @@ body{
 }
 
 
-.container{
+.containerNav{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
@@ -32,7 +32,7 @@ body{
  
 }
 
-.container > div {
+.containerNav > div {
     color: #ffbf00;
     border-radius: 5px;
     padding: 10px;
