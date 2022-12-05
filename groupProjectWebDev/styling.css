@@ -400,8 +400,7 @@ body{
 .container{
   width: 85%;
   background: black;
-  border-radius: 6px;
-  padding: 20px 60px 30px 40px;
+  /* padding: 20px 0px 30px 40px; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .container .content{
@@ -449,12 +448,12 @@ body{
 }
 .container .content .right-side{
   width: 75%;
-  margin-left: 75px;
+  margin-left: 30px;
 }
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: #096A2E;
 }
 .right-side .input-box{
   height: 50px;
@@ -491,7 +490,7 @@ body{
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #096A2E;
   cursor: pointer;
   transition: all 0.3s ease;
 }
