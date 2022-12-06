@@ -42,11 +42,9 @@ body{
 }
 
 .topnav {
-    /* background-color: #333; */
     overflow: hidden;
     border-radius: 2em;
     height: fit-content;
-    /* width: fit-content; */
   }
   
   /* Style the links inside the navigation bar */
